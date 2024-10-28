@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "name": "Basic Plan",
+        "price": "$9.99/month",
+        "features": [
+            "1 user",
+            "Basic support",
+            "5GB storage"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Standard Plan",
+        "price": "$29.99/month",
+        "features": [
+            "5 users",
+            "Priority support",
+            "50GB storage",
+            "Analytics"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Pro Plan",
+        "price": "$49.99/month",
+        "features": [
+            "Unlimited users",
+            "24/7 support",
+            "500GB storage",
+            "Advanced analytics",
+            "Custom reports"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Enterprise Plan",
+        "price": "$99.99/month",
+        "features": [
+            "Unlimited users",
+            "Dedicated support",
+            "1TB storage",
+            "Full analytics suite",
+            "Account manager"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Free Trial",
+        "price": "$0.00",
+        "features": [
+            "1 user",
+            "Basic support",
+            "2GB storage",
+            "Limited features"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Starter Pack",
+        "price": "$5.99/month",
+        "features": [
+            "1 user",
+            "Email support",
+            "3GB storage"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Growth Plan",
+        "price": "$39.99/month",
+        "features": [
+            "10 users",
+            "Priority email support",
+            "100GB storage",
+            "Analytics",
+            "User management"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Business Plan",
+        "price": "$59.99/month",
+        "features": [
+            "50 users",
+            "Priority phone support",
+            "200GB storage",
+            "Advanced analytics",
+            "Custom branding"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Ultimate Plan",
+        "price": "$149.99/month",
+        "features": [
+            "Unlimited users",
+            "Dedicated account manager",
+            "2TB storage",
+            "Full analytics suite",
+            "API access",
+            "Custom integrations"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Seasonal Offer",
+        "price": "$19.99/month",
+        "features": [
+            "2 users",
+            "Basic support",
+            "10GB storage",
+            "Access to premium content"
+        ]
+    }
+]
