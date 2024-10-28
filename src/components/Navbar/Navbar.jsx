@@ -36,18 +36,18 @@ const Navbar = () => {
     ];
     const [open, setOpen] = useState(false)
     return (
-        <mav>
+        <nav>
             <div className='text-2xl md:hidden' onClick={() => setOpen(!open)}>
                 {
                     open ? <IoMdClose></IoMdClose> : <IoMdMenu></IoMdMenu>
                 }
             </div>
-            <ul className={`md:flex gap-10 absolute md:static duration-1000 ${open ? 'top-10 ':'-top-96 '}  bg-slate-400 text-black p-5 `}>
+            <ul className={`md:flex gap-10 absolute md:static duration-1000 ${open ? 'top-10 ' : '-top-96 '}  bg-slate-400 text-black p-5 `}>
                 {
-                    routes.map(route => <Link route={route}></Link>)
+                    routes.map((route, ind) => <Link key={ind} route={route}></Link>)
                 }
             </ul>
-        </mav>
+        </nav>
     );
 };
 
